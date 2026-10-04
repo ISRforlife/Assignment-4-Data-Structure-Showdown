@@ -1,0 +1,6 @@
+
+Timed Challenge Reflection
+For my timed challenge, I chose the First Repeated Value problem. I decided to use a set because I needed a simple way to keep track of the values I had already seen. As the program goes through the list, each value gets added to the set. If the program sees a value that is already there, it knows that value is the first repeat and returns it. I thought this made more sense than constantly going back through the list and comparing values.
+The 30-minute time limit definitely affected how I approached the problem. Instead of trying to make the solution complicated, I focused on choosing a data structure that I understood and could implement quickly. Using a set also made testing easier because the logic was pretty straightforward.
+One trade-off is that the set uses extra memory because it has to store the values that have already been seen. I thought that was worth it because it makes finding a repeated value much faster than repeatedly searching through the entire list.
+I tested the solution with several different inputs, including a normal list with a repeated value, a list with no repeats, an empty list, two identical values, and even strings. The biggest thing I learned from this challenge is that choosing the right data structure can make the actual coding part much easier, especially when working under a time limit.
